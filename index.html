@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparsh Sharma-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sparsh's Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, my name is <span class="red">Sparsh</span>
+                <div>and I have interests in</div>
+                <span id="element"></span>
+                <div class="Buttons">
+                    <button class="btn" onclick="window.open('https:/1drv.ms/b/s!AsBTm4QIjTlmgeYnyfsbOjjsX5SxtQ?e=KnNGc7', '_blank')">Download CV</button>
+                    <button class="btn" onclick="window.open('https:/github.com/Sparshs941', '_blank')">Visit Github</button>
+
+                </div>
+            </div>
+
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Cloud Computing', 'Android Development'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
