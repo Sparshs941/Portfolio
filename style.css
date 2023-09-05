@@ -58,6 +58,20 @@ nav ul li a:hover {
 .leftsection {
     font-size: 3rem;
 }
+ .leftsection img {
+    margin-right: 20px;
+    width: 6%;
+ }
+ figure {
+    display: flex;
+    align-items: center;
+ }
+ figcaption a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-size: 2rem;
+ }
 
 .leftsection .btn  {
     padding: 12px;
