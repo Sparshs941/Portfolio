@@ -106,3 +106,12 @@ nav ul li a:hover {
 .red {
     color: red;
 }
+
+.projects {
+    font-size: 2rem;
+    color: red;
+}
+caption {
+    display: flex;
+    font-size: 1rem;
+}
