@@ -65,12 +65,27 @@ nav ul li a:hover {
  figure {
     display: flex;
     align-items: center;
+    align-content: center;
+
+ }
+ figure img {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: space-between;
+    
  }
  figcaption a {
+
+    display: flex;
     text-decoration: none;
     color: white;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
+    align-content: center;
+ }
+ figcaption {
+    font-size: 1rem;
  }
 
 .leftsection .btn  {
